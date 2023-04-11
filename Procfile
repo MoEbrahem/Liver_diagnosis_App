@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app
+echo "web: python main.py"
