@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 import pickle
 import numpy as np
-model = pickle.load(open('RF_model.pkl', 'rb'))
+model = pickle.load(open('RandomForest-model.pkl', 'rb'))
 app= Flask(__name__)
 
 @app.route('/')
